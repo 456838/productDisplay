@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/beauty_contrast_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/beatury_go_back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_go_back" />
+    <ImageView android:id="@+id/beatury_slide_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_slide_bt" android:layout_alignParentRight="true" />
+    <ImageView android:id="@+id/contrast_bg" android:background="@mipmap/beauty_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="103.0dip" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@mipmap/beauty_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

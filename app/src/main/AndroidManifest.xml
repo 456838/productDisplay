@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salton123.productdisplay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:launchMode="singleTop" android:name=".PhoneVedioActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".pickup.PickupActivity" android:screenOrientation="portrait" android:theme="@style/vp_Theme"/>
+        <activity android:launchMode="singleTask" android:name=".pickup.FocusActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".pickup.SampleActivity" android:screenOrientation="portrait" android:theme="@style/vp_Theme"/>
+        <activity android:launchMode="singleTask" android:name=".pickup.ContrastActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".property.BatteryActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".pickup.BeautyActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".pickup.BeautyContrastActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".function.EmuiActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".function.EmuiVedioActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".pickup.CateActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".facade.FacadeActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name=".property.SlugActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TestActivity"/>
+    </application>
+
+</manifest>

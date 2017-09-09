@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/sample_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/rl_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/go_back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_go_back" />
+        <ImageView android:id="@+id/home_slide_right_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_slide_bt" android:layout_alignParentRight="true" />
+        <ImageView android:id="@+id/go_contrast_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bt_button_margin" android:src="@mipmap/sample_bt" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

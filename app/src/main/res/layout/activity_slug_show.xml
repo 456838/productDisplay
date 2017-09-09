@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.salton123.productdisplay.other.widget.PreviewVideoView android:id="@+id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@+id/go_back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_go_back" />
+    <ImageView android:id="@+id/slide_menu_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_slide_bt" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@+id/rl_parent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/go_quick_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bt_button_margin" android:src="@mipmap/go_quick" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/beauty_bg_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/beauty_pic_00" />
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/beatury_go_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:src="@mipmap/sample_go_back" />
+
+        <ImageView
+            android:id="@+id/beatury_slide_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20.0dip"
+            android:src="@mipmap/sample_slide_bt" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/seekbar_text_left" />
+
+            <LinearLayout
+                android:id="@+id/ll_parent"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+                <com.salton123.productdisplay.other.widget.TextMoveLayout
+                    android:id="@+id/textLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:layout_marginLeft="8.0dip" />
+
+                <SeekBar
+                    android:id="@+id/seekbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="3.0dip"
+                    android:minHeight="3.0dip"
+                    android:progressDrawable="@drawable/seek_img"
+                    android:secondaryProgress="10"
+                    android:thumb="@drawable/seek_thumb" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/seekbar_text_right" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sure_bt_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/bt_button_margin"
+            android:src="@mipmap/sure_bt" />
+    </RelativeLayout>
+</RelativeLayout>

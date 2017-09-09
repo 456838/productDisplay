@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:clickable="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_detail_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/all_detail_image"
+        android:clickable="false" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10.0dip"
+        android:padding="10.0dip"
+        android:src="@mipmap/drawer_menu_close" />
+</RelativeLayout>

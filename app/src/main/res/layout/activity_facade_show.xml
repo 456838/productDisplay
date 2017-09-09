@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.salton123.productdisplay.other.widget.PreviewVideoView
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/facade_blue_bg" />
+
+    <ImageView
+        android:id="@+id/go_back_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/sample_go_back" />
+
+    <ImageView
+        android:id="@+id/slide_menu_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/sample_slide_bt" />
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/facade_slide_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160.0dip"
+            android:src="@mipmap/facede_circle_iv" />
+
+        <ImageView
+            android:id="@+id/facade_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100.0dip"
+            android:src="@mipmap/facede_circle_iv" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/facade_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20.0dip"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/facade_blue_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/blue_selector"
+            android:checked="true"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/facade_black_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:background="@null"
+            android:button="@drawable/black_selector"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/facade_gold_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12.0dip"
+            android:background="@null"
+            android:button="@drawable/gold_selector"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/facade_red_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/red_selector"
+            android:gravity="center" />
+    </RadioGroup>
+</RelativeLayout>

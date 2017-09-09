@@ -1,2 +1,0 @@
-# productDisplay
-productDisplay

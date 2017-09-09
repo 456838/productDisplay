@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_parent_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/home_bg">
+
+    <LinearLayout
+        android:id="@+id/mv_show_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.salton123.productdisplay.other.widget.MenuViewItem
+                android:id="@+id/home_facade_mv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.0"
+                android:background="@mipmap/home_facede" />
+
+            <com.salton123.productdisplay.other.widget.MenuViewItem
+                android:id="@+id/home_pickup_mv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.0"
+                android:background="@mipmap/home_pickup" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+
+            <com.salton123.productdisplay.other.widget.MenuViewItem
+                android:id="@+id/home_function_mv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.0"
+                android:background="@mipmap/home_function" />
+
+            <com.salton123.productdisplay.other.widget.MenuViewItem
+                android:id="@+id/home_property_mv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.0"
+                android:background="@mipmap/home_property" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/choose_show_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310.0dip"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/property_choose_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/property_choose" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/big_battery_iv"
+                android:layout_width="0.0dip"
+                android:layout_height="120.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_weight="1.0" />
+
+            <ImageView
+                android:id="@+id/slug_iv"
+                android:layout_width="0.0dip"
+                android:layout_height="120.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/home_phone_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/home_phone" />
+
+    <ImageView
+        android:id="@+id/home_back_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/back_home"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/home_slide_right_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/slide_right" />
+
+    <ImageView
+        android:id="@+id/home_up_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/home_up" />
+
+    <ImageView
+        android:id="@+id/home_play_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20.0dip"
+        android:src="@mipmap/home_play" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+</RelativeLayout>

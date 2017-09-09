@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@mipmap/emui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/emui_left" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/emui_right" android:layout_alignParentRight="true" />
+    <ImageView android:id="@+id/emui_go_back_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_go_back" />
+    <ImageView android:id="@+id/emui_slide_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@mipmap/sample_slide_bt" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="198.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:id="@+id/student_mode_iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" />
+        <ImageView android:id="@+id/pay_mode_iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/eye_mode_iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="20.0dip" />
+        <ImageView android:id="@+id/clone_mode_iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="20.0dip" />
+        <ImageView android:id="@+id/screenshot_mode_iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+</RelativeLayout>
